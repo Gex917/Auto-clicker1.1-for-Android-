@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/floating_background">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎮 自动点击器"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_gravity="center" />
+
+    <!-- 状态信息 -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="状态：已停止"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度：0/0"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="4dp" />
+
+    <!-- 控制按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="▶ 开始"
+            android:textSize="12sp"
+            android:backgroundTint="@color/green"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="⏹ 停止"
+            android:textSize="12sp"
+            android:backgroundTint="@color/red" />
+    </LinearLayout>
+
+    <!-- 关闭按钮 -->
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="关闭"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
+
+</LinearLayout>
