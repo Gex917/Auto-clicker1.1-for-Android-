@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFFF4081</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="gray">#FF9E9E9E</color>
+    <color name="gray_light">#FFF5F5F5</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="primary">#FF6200EE</color>
+    <color name="primary_dark">#FF3700B3</color>
+    <color name="red">#FFF44336</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="accessibility_service_description">自动点击器需要无障碍服务权限来执行自动点击操作。请放心，此服务仅用于自动点击功能。</string>
+    <string name="app_name">自动点击器</string>
+    <style name="Theme.AutoClicker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+    <style name="Theme.Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

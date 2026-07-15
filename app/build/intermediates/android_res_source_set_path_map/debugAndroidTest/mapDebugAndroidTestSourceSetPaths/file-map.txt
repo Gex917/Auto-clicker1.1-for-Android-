@@ -1,0 +1,6 @@
+com.autoclicker.test.app-androidTest-0 G:\mimo-work\AutoClicker\app\build\generated\res\resValues\androidTest\debug
+com.autoclicker.test.app-updated_navigation_xml-1 G:\mimo-work\AutoClicker\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.autoclicker.test.app-mergeDebugAndroidTestResources-2 G:\mimo-work\AutoClicker\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.autoclicker.test.app-mergeDebugAndroidTestResources-3 G:\mimo-work\AutoClicker\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.autoclicker.test.app-debugAndroidTest-4 G:\mimo-work\AutoClicker\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+gradleHome-0 C:\Users\zcs\.gradle
